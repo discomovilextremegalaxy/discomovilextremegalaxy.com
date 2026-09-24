@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101010"/>
+      <stop offset="100%" stop-color="#06080a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg2)"/>
+  <circle cx="400" cy="180" r="150" fill="#69c9c1" opacity=".10"/>
+  <circle cx="620" cy="320" r="150" fill="#d8b16b" opacity=".08"/>
+  <rect x="110" y="540" width="580" height="240" rx="24" fill="#111" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="140" y="510" width="520" height="26" rx="13" fill="#d8b16b" opacity=".75"/>
+  <rect x="190" y="460" width="420" height="24" rx="12" fill="#69c9c1" opacity=".65"/>
+  <rect x="250" y="410" width="300" height="24" rx="12" fill="#f4f0e8" opacity=".35"/>
+  <path d="M170 330 90 160M630 330 710 160" stroke="#f4f0e8" stroke-opacity=".18" stroke-width="10" stroke-linecap="round"/>
+  <text x="100" y="910" font-family="Arial Narrow, Arial, sans-serif" font-size="54" letter-spacing="4" fill="#f4f0e8">EVENTO 02</text>
+</svg>

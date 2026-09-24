@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#080a0c"/>
+  <circle cx="400" cy="200" r="180" fill="#69c9c1" opacity=".09"/>
+  <rect x="130" y="520" width="540" height="220" rx="24" fill="#111" stroke="#ffffff" stroke-opacity=".12"/>
+  <circle cx="290" cy="630" r="80" fill="none" stroke="#d8b16b" stroke-width="20" opacity=".75"/>
+  <circle cx="510" cy="630" r="80" fill="none" stroke="#69c9c1" stroke-width="20" opacity=".75"/>
+  <circle cx="290" cy="630" r="18" fill="#f4f0e8" opacity=".55"/>
+  <circle cx="510" cy="630" r="18" fill="#f4f0e8" opacity=".55"/>
+  <rect x="320" y="540" width="160" height="30" rx="15" fill="#f4f0e8" opacity=".18"/>
+  <text x="100" y="910" font-family="Arial Narrow, Arial, sans-serif" font-size="54" letter-spacing="4" fill="#f4f0e8">EVENTO 05</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1014"/>
+      <stop offset="100%" stop-color="#030303"/>
+    </linearGradient>
+    <linearGradient id="light1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8b16b"/>
+      <stop offset="100%" stop-color="#69c9c1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg1)"/>
+  <circle cx="180" cy="220" r="170" fill="#69c9c1" opacity=".10"/>
+  <circle cx="620" cy="180" r="150" fill="#d8b16b" opacity=".12"/>
+  <rect x="90" y="590" width="620" height="210" rx="24" fill="#111" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="210" y="460" width="380" height="120" rx="16" fill="#171717" stroke="#ffffff" stroke-opacity=".10"/>
+  <path d="M400 180 262 420h276L400 180Z" fill="url(#light1)" opacity=".9"/>
+  <path d="M210 730c110-44 270-44 380 0" fill="none" stroke="url(#light1)" stroke-width="14" stroke-linecap="round"/>
+  <text x="100" y="910" font-family="Arial Narrow, Arial, sans-serif" font-size="54" letter-spacing="4" fill="#f4f0e8">EVENTO 01</text>
+</svg>
