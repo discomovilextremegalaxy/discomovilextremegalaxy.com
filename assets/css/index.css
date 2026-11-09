@@ -573,3 +573,45 @@
         display: none;
     }
 }
+
+
+/* Adaptive effects: keep low-power devices and reduced-motion users comfortable. */
+.low-effects .hero__lights {
+    display: none !important;
+}
+
+.low-effects .hero::before,
+.low-effects .hero::after,
+.low-effects .hero__neon {
+    animation: none !important;
+}
+
+.low-effects .service-card,
+.low-effects .media-card,
+.low-effects .media-feature,
+.low-effects .testimonial-card,
+.low-effects .media-link {
+    transition: none !important;
+}
+
+.low-effects .service-card:hover,
+.low-effects .service-card:focus-within,
+.low-effects .media-card:hover,
+.low-effects .media-card:focus-within,
+.low-effects .media-feature:hover,
+.low-effects .testimonial-card:hover,
+.low-effects .media-link:hover,
+.low-effects .media-link:focus-visible {
+    transform: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
