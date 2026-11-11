@@ -1,65 +1,93 @@
-# Discomóvil Extreme Galaxy — Website
+# Discomóvil Extreme Galaxy — Business Website
 
 **Bilingual project documentation / Documentación bilingüe**
 
 ## English
 
 ### Overview
-A responsive promotional website created for a family-owned DJ and event-services business in El Salvador. It presents the brand, services, visual identity, media and contact routes in a single-page experience.
 
-### My contribution
-Designed and developed independently by Jeremy Torres. The work includes page structure, visual styling, responsive layout, interactive behavior and presentation of the business's services.
+A responsive promotional website for **Discomóvil Extreme Galaxy**, a family-run DJ and event-services business in El Salvador. The site gives potential customers a place to understand the services, view event media and start a quote conversation.
 
-### Main features
-- Single-page business presentation.
-- Service and media sections for DJ, sound and lighting.
-- WhatsApp contact entry points.
-- Dark visual identity with neon-inspired details.
-- Scroll-reveal effects and restrained pointer-responsive hero lighting on capable desktop devices.
-- Adaptive effects: nonessential motion and pointer lighting are reduced or disabled on touch devices, reduced-motion configurations, data-saving connections and devices that appear resource-constrained.
-- Bilingual site terms in terms.html, linked from the footer.
+**Implemented experience:** a single-page website with service, media, testimonial and contact sections.
+
+### User experience
+
+- Brand introduction and service positioning for DJ, sound, lighting and event animation.
+- Service cards that summarize the business offering.
+- Video and photo gallery using locally hosted media assets.
+- WhatsApp quote entry points and a Facebook contact link.
+- Responsive navigation and layouts for desktop and mobile.
+- Scroll-triggered reveal effects and pointer-responsive hero lighting on capable desktop devices.
+- Reduced or disabled decorative motion on touch devices, reduced-motion configurations, data-saving connections and resource-constrained devices.
+- Bilingual site terms in **terms.html**.
+
+### Implementation
+
+The website uses semantic HTML for page sections, CSS for layout and visual effects, and vanilla JavaScript for interaction. The Intersection Observer API triggers scroll-reveal behavior, while Pointer Events and requestAnimationFrame drive the desktop hero-lighting effect without continuously polling the pointer.
 
 ### Technology
-- HTML5, CSS3 and Vanilla JavaScript.
-- Intersection Observer API and Pointer Events API.
-- requestAnimationFrame for event-driven visual updates.
 
-### Scope and current status
-The implemented experience is centered on the main landing page. Some earlier secondary-page and translation-file placeholders were intentionally left unused after the content was consolidated into one page; they are not represented as completed pages. The website is preserved as a portfolio example. Visitors should independently verify current business contact details before relying on them.
+- HTML5, CSS3 and vanilla JavaScript.
+- Intersection Observer API and Pointer Events API.
+- requestAnimationFrame.
+- Locally hosted image and video assets.
 
 ### Run locally
-Open index.html in a browser or serve the repository root with any static HTTP server.
 
-### Accessibility and performance
-The site prioritizes readable content and responsive navigation. Decorative effects are adaptive and respect the browser's reduced-motion preference. See terms.html for details.
+Open **index.html** in a browser, or serve the repository root with a static HTTP server:
+
+~~~bash
+python -m http.server 8000
+~~~
+
+Open http://localhost:8000.
+
+### Scope
+
+The public experience is centered on the landing page and its in-page sections. Contact actions open external channels; the repository does not provide online booking, payment processing or a business-management backend. Contact information and service availability should be confirmed with the business before use.
+
+---
 
 ## Español
 
-### Descripción
-Sitio web promocional adaptable creado para un negocio familiar de servicios de DJ y eventos en El Salvador. Presenta la marca, los servicios, la identidad visual, contenido multimedia y vías de contacto en una experiencia de una sola página.
+### Descripción general
 
-### Mi aporte
-Diseñado y desarrollado individualmente por Jeremy Torres. El trabajo incluye la estructura de la página, estilos visuales, diseño adaptable, comportamiento interactivo y presentación de los servicios del negocio.
+Sitio web promocional adaptable para **Discomóvil Extreme Galaxy**, un negocio familiar de DJ y servicios para eventos en El Salvador. El sitio permite que los clientes potenciales conozcan la oferta, vean material audiovisual y comiencen una conversación para solicitar una cotización.
 
-### Funcionalidades principales
-- Presentación comercial de una sola página.
-- Secciones de servicios y contenido multimedia para DJ, sonido e iluminación.
-- Accesos de contacto mediante WhatsApp.
-- Identidad visual oscura con detalles inspirados en neón.
+**Experiencia implementada:** sitio de una sola página con secciones de servicios, contenido multimedia, testimonios y contacto.
+
+### Experiencia del usuario
+
+- Presentación de marca y servicios de DJ, sonido, iluminación y animación.
+- Tarjetas que resumen los servicios disponibles.
+- Galería de videos y fotografías con recursos multimedia locales.
+- Accesos para solicitar cotizaciones por WhatsApp y contactar mediante Facebook.
+- Navegación y maquetación adaptables a computadoras y teléfonos.
 - Efectos de aparición al desplazarse e iluminación del encabezado sensible al puntero en equipos de escritorio compatibles.
-- Efectos adaptativos: se reducen o desactivan movimientos no esenciales e iluminación del cursor en dispositivos táctiles, configuraciones de movimiento reducido, conexiones con ahorro de datos y equipos que aparenten tener recursos limitados.
-- Términos del sitio en español e inglés en terms.html, enlazados desde el footer.
+- Movimiento decorativo reducido o desactivado en dispositivos táctiles, configuraciones de movimiento reducido, conexiones con ahorro de datos y equipos con recursos limitados.
+- Términos del sitio en español e inglés en **terms.html**.
+
+### Implementación
+
+El sitio utiliza HTML semántico para estructurar las secciones, CSS para la maquetación y los efectos visuales, y JavaScript puro para las interacciones. La API Intersection Observer activa los efectos de aparición durante el desplazamiento; Pointer Events y requestAnimationFrame controlan la iluminación del encabezado en escritorio sin consultar el puntero continuamente.
 
 ### Tecnologías
+
 - HTML5, CSS3 y JavaScript puro.
 - API Intersection Observer y API Pointer Events.
-- requestAnimationFrame para actualizaciones visuales activadas por eventos.
-
-### Alcance y estado actual
-La experiencia implementada se concentra en la página principal. Algunas páginas secundarias y archivos de traducción que se habían creado como posibles secciones quedaron sin uso cuando el contenido se unificó en una sola página; no se presentan como páginas terminadas. El sitio se conserva como muestra de trabajo de portafolio. Los visitantes deben verificar por su cuenta los datos de contacto comerciales antes de utilizarlos.
+- requestAnimationFrame.
+- Recursos locales de imagen y video.
 
 ### Ejecución local
-Abre index.html en un navegador o sirve la raíz del repositorio mediante cualquier servidor HTTP estático.
 
-### Accesibilidad y rendimiento
-El sitio prioriza el contenido legible y la navegación adaptable. Los efectos decorativos se ajustan al dispositivo y respetan la preferencia de movimiento reducido del navegador. Consulta terms.html para conocer estos comportamientos.
+Abre **index.html** en un navegador o sirve la raíz del repositorio mediante un servidor HTTP estático:
+
+~~~bash
+python -m http.server 8000
+~~~
+
+Abre http://localhost:8000.
+
+### Alcance
+
+La experiencia pública se concentra en la página principal y sus secciones internas. Las acciones de contacto abren canales externos; el repositorio no implementa reservas en línea, procesamiento de pagos ni backend de administración del negocio. Los datos de contacto y la disponibilidad de servicios deben confirmarse directamente con el negocio antes de utilizarlos.
